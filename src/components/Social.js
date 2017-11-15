@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import '../css/Footer.css';
+import '../css/Social.css';
 
-class Footer extends Component {
+class Social extends Component {
   render() {
     return (
-      <div className="Footer">
+      <div className="Social">
         <p> social media links </p>
       </div>
     );
   }
 }
 
-export default Footer;
+export default Social;

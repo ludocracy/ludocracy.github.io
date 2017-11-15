@@ -1,7 +1,7 @@
-import Header from './Header';
-import Footer from './Footer';
-import Home from './Home';
+import Hero from './Hero';
+import Social from './Social';
 import Projects from './Projects';
 import About from './About';
+import NavBar from './NavBar';
 
-export { Header, Footer, Home, Projects, About };
+export { NavBar, Hero, Social, Projects, About };
