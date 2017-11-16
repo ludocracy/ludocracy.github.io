@@ -8,26 +8,38 @@ import {
   Social,
   NavBar
 } from './components';
+import 'react-sticky-header/styles.css';
+import StickyHeader from 'react-sticky-header';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar />
+        <StickyHeader header={
+          <NavBar />
+        }/>
         <ScrollableAnchor id={'hero'}>
-          <Hero />
+          <section>
+            <Hero />
+          </section>
         </ScrollableAnchor>
 
         <ScrollableAnchor id={'about'}>
-          <About />
+          <section>
+            <About />
+          </section>
         </ScrollableAnchor>
 
         <ScrollableAnchor id={'projects'}>
-          <Projects />
+          <section>
+            <Projects />
+          </section>
         </ScrollableAnchor>
 
         <ScrollableAnchor id={'social'}>
-          <Social />
+          <section>
+            <Social />
+          </section>
         </ScrollableAnchor>
       </div>
     );
