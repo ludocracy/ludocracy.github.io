@@ -5,6 +5,7 @@ class NavBar extends Component {
   render() {
     return (
       <div className="NavBar">
+        <h1>Peter Kong</h1>
         <nav>
           <a href='#hero'>Home</a>
           <a href='#about'>About me</a>

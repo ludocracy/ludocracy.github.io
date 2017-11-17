@@ -4,6 +4,7 @@
 }
 
 section {
+  padding-top: 95px;
   flex: 1;
-  height: 500px;
+  height: 800px;
 }

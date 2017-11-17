@@ -1,0 +1,17 @@
+.NavBar {
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+}
+
+h1 {
+  flex: 1;
+  color: white;
+}
+
+nav {
+  flex: 1;
+  padding:0 15px;
+  line-height:80px;
+  text-align: right;
+}

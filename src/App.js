@@ -15,15 +15,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <StickyHeader header={
-          <NavBar />
-        }/>
         <ScrollableAnchor id={'hero'}>
-          <section>
-            <Hero />
-          </section>
+          <StickyHeader header={ <NavBar /> }>
+            <section>
+              <Hero />
+            </section>
+          </StickyHeader>
         </ScrollableAnchor>
-
         <ScrollableAnchor id={'about'}>
           <section>
             <About />

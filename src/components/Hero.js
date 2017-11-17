@@ -5,7 +5,7 @@ class Hero extends Component {
   render() {
     return (
       <div className="Hero">
-        <h1>title</h1>
+        <h2>Web and Doctools Developer</h2>
       </div>
     );
   }
