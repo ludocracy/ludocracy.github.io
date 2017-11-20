@@ -9,6 +9,9 @@ Perma-link: [peterkong.net](http://peterkong.net)
 
 ## general site features
 - sticky header for navigation and title
+- 200ms transitions/delays on all user interactions
+- hover effects
+- pressing ~ changes content of components into display of actual code for that component
 
 ### home page
 - paragraph of intro with links inline
@@ -18,6 +21,11 @@ Perma-link: [peterkong.net](http://peterkong.net)
 - paragraph of text summarizing projects with links inline
 - scrollable
 - has screenshots
+- list:
+  - kollaboscope
+  - re_duxml
+  - eargASMR
+  - Dita For Small Teams
 
 ### About
 - paragraph of text with links to skills and topics of interest?
@@ -25,3 +33,4 @@ Perma-link: [peterkong.net](http://peterkong.net)
 ### social links
 - paragraph of social descriptions with inline links
 - not scrollable
+- github, linkedin, medium
