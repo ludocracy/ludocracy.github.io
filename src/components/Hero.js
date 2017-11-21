@@ -7,7 +7,7 @@ class Hero extends Component {
       <div className="Hero">
         <h2>Web and Doctools Developer</h2>
         <p>
-        I am a full stack developer and documentation tools expert based on Austin, Texas.
+        I am a full stack developer and documentation tools expert based in Austin, Texas.
         I work mainly in Rails, React, and Node.
         Here you can learn <a href="#about">ABOUT ME</a>,
         see some of my <a href="#projects">PROJECTS</a>,
