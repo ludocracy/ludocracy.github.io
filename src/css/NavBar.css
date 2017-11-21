@@ -27,7 +27,6 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   padding-left: 15%;
-  line-height: 80px;
   text-align: right;
 }
 
@@ -35,6 +34,7 @@ nav a {
   color: #EFD9CE;
   font-size: 18px;
   text-decoration: none;
+  align-self: center;
 }
 
 nav a:hover {

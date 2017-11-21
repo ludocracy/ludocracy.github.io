@@ -19,28 +19,15 @@ Perma-link: [peterkong.net](http://peterkong.net)
 
 ### by component
 #### navbar
-- make taller
-- make primary color
-- make font secondary color
-- pick nice font
-- size name
-- size nav items
-- space them apart
-- add hover effects
 - add click effects
-- add portrait photo and circle it
-- add left-right padding
+- add border-bottom underline on hover
+- add portrait hover effects
 
 #### hero
-- add large padding left-right
-- center content
-- style links
-  - colors
-  - hover effects
-  - remove underline
-- enlarge text
-- pick font
-- adjust height and make screen relative?
+- make the stack components also links?
+
+### About
+- paragraph of text with links to skills and topics of interest?
 
 ### Projects
 - paragraph of text summarizing projects with links inline
@@ -51,9 +38,6 @@ Perma-link: [peterkong.net](http://peterkong.net)
   - re_duxml
   - eargASMR
   - Dita For Small Teams
-
-### About
-- paragraph of text with links to skills and topics of interest?
 
 ### social links
 - paragraph of social descriptions with inline links

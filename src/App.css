@@ -8,3 +8,7 @@ section {
   flex: 1;
   height: 800px;
 }
+
+.ReactStickyHeader_foreground, .ReactStickyHeader_background-bg {
+  pointer-events: none;
+}

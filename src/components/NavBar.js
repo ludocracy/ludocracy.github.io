@@ -9,9 +9,9 @@ class NavBar extends Component {
         <h1>Peter Kong</h1>
         <nav>
           <a href='#hero'>Home</a>
-          <a href='#about'>About me</a>
+          <a href='#about'>About</a>
           <a href='#projects'>Projects</a>
-          <a href='#social'>Social links</a>
+          <a href='#social'>Contact</a>
         </nav>
       </div>
     );

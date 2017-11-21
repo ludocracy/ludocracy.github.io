@@ -1,4 +1,33 @@
 .Hero {
   background-color: white;
   height: inherit;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+
+}
+
+h2 {
+  font-size: 28px;
+  color: #8F3985;
+}
+
+p {
+  line-height: 2;
+  font-size: 24px;
+  color: #25283D;
+}
+
+b {
+  color: #8F3985;
+}
+
+a {
+  color: #8F3985;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #A675A1;
 }
