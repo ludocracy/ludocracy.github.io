@@ -12,6 +12,7 @@ Perma-link: [peterkong.net](http://peterkong.net)
 - 200ms transitions/delays on all user interactions
 - hover effects
 - pressing ~ changes content of components into display of actual code for that component
+- change favicon!!!
 
 ### home page
 - paragraph of intro with links inline

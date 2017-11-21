@@ -7,10 +7,11 @@ class Hero extends Component {
       <div className="Hero">
         <h2>Web and Doctools Developer</h2>
         <p>
-        I am a full stack developer and documentation tools expert. Here you can
-        learn <a href="#about">ABOUT ME</a>, see
-        some of my <a href="#projects">PROJECTS</a> and find links to my <a href="#social">WEB PRESENCE</a>.
-
+        I am a full stack developer and documentation tools expert based on Austin, Texas.
+        I work mainly in Rails, React, and Node.
+        Here you can learn <a href="#about">ABOUT ME</a>,
+        see some of my <a href="#projects">PROJECTS</a>,
+        and find links to my <a href="#social">WEB PRESENCE</a>.
         </p>
       </div>
     );
