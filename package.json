@@ -18,5 +18,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://ludocracy.github.io/"
+  "homepage": "https://ludocracy.github.io/personal_page"
 }
