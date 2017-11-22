@@ -9,24 +9,28 @@ class Projects extends Component {
     this.projects = [
       {
         title: 'Kollaboscope',
+        url: 'https://kollaboscope-183217.firebaseapp.com/',
         screenshot: '',
         description: '',
         stack: ['React', 'Firebase', 'React-YouTube', 'YouTube API']
       },
       {
         title: 'eargASMR',
+        url: 'https://github.com/ludocracy/eargASMR',
         screenshot: '',
         description: '',
         stack: ['React Native', 'React Native Sound', 'Firebase', 'freesounds API']
       },
       {
         title: 'DRY Drawings',
+        url: '',
         screenshot: '',
         description: '',
         stack: ['React', 'Firebase', 'Rails', 'ReDuxml']
       },
       {
         title: 'Dita For Small Teams',
+        url: 'https://github.com/dita-community/dita-for-small-teams/wiki',
         screenshot: '',
         description: '',
         stack: ['Docker', 'BaseX', 'GitLab', 'XQuery']
@@ -39,6 +43,7 @@ class Projects extends Component {
     ));
     return (
       <div className="Projects">
+        <h2>Projects</h2>
         { projectComps }
       </div>
     );
