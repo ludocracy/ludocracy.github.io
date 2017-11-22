@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "title": "Kollaboscope",
+      "url": "https://kollaboscope-183217.firebaseapp.com/",
+      "screenshot": "https://ludocracy.github.io/random-static-files/screenshots/kollaboscope_screenshot.png",
+      "description": "A web app for creating collaborative YouTube playlists (a feature that does not exist as of late 2017) without requiring any login. A unique URL is generated for each playlist for sharing, and adding a song updates all users in real time.",
+      "stack": ["React", "Firebase", "React-YouTube", "YouTube API"]
+    },
+    {
+      "title": "eargASMR",
+      "url": "https://github.com/ludocracy/eargASMR",
+      "screenshot": "https://ludocracy.github.io/random-static-files/screenshots/eargASMR_screenshot.png",
+      "description": "A mobile app for creating customized ASMR/meditation experiences. This was a group project where I contributed much of the logic and teammates provided the sound effects and stylings. Volume is adjustable for each sound independently.",
+      "stack": ["React Native", "React Native Sound", "Firebase", "freesounds API"]
+    },
+    {
+      "title": "DRY-Draw",
+      "url": "",
+      "screenshot": "",
+      "description": "A web app for taking a single SVG (or any XML file) and embedding variables such that it can represent multiple permutations. E.g. a technical drawing for an iPhone can have home button that exists if version != X. Uses parameter currying so unknown variable values do not cause errors.",
+      "stack": ["React", "Firebase", "Rails", "ReDuxml"]
+    }
+  ]
+}

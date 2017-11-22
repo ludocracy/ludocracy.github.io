@@ -1,0 +1,32 @@
+.Project {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-right: 10%;
+}
+
+.eargASMR {
+  width: 150%;
+  height: auto;
+  border-radius: 8%;
+  margin-left: 40%;
+}
+
+.Kollaboscope {
+  width: 230%;
+  height: auto;
+  margin-left: 20%;
+}
+
+.project-descr-img {
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  text-align: left;
+}

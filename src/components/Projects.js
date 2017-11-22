@@ -1,41 +1,13 @@
 import React, { Component } from 'react';
 import '../css/Projects.css';
 import Project from './Project';
+import projectsData from '../projects.json';
 
 class Projects extends Component {
   constructor(props) {
     super(props);
 
-    this.projects = [
-      {
-        title: 'Kollaboscope',
-        url: 'https://kollaboscope-183217.firebaseapp.com/',
-        screenshot: '',
-        description: '',
-        stack: ['React', 'Firebase', 'React-YouTube', 'YouTube API']
-      },
-      {
-        title: 'eargASMR',
-        url: 'https://github.com/ludocracy/eargASMR',
-        screenshot: '',
-        description: '',
-        stack: ['React Native', 'React Native Sound', 'Firebase', 'freesounds API']
-      },
-      {
-        title: 'DRY Drawings',
-        url: '',
-        screenshot: '',
-        description: '',
-        stack: ['React', 'Firebase', 'Rails', 'ReDuxml']
-      },
-      {
-        title: 'Dita For Small Teams',
-        url: 'https://github.com/dita-community/dita-for-small-teams/wiki',
-        screenshot: '',
-        description: '',
-        stack: ['Docker', 'BaseX', 'GitLab', 'XQuery']
-      }
-    ]
+    this.projects = projectsData.projects;
   }
   render() {
     let projectComps = this.projects.map((project, key) => (
