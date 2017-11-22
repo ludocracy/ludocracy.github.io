@@ -27,19 +27,24 @@ Perma-link: [peterkong.net](http://peterkong.net)
 - make the stack components also links?
 
 ### About
-- paragraph of text with links to skills and topics of interest?
+- add top padding?
+- skill list could be shorter?
+- make links live
 
 ### Projects
 - paragraph of text summarizing projects with links inline
-- scrollable
 - has screenshots
 - list:
   - kollaboscope
+    - get new screen shot after restyling
   - re_duxml
+    - coming soon placeholder?
   - eargASMR
+    - get screen shot
+    - update readme to state that code contribution was equal
   - Dita For Small Teams
+    - specify that i only contributed the proxy server
 
 ### social links
 - paragraph of social descriptions with inline links
-- not scrollable
-- github, linkedin, medium
+- github, linkedin, medium, resume
