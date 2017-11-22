@@ -29,7 +29,6 @@ Perma-link: [peterkong.net](http://peterkong.net)
 ### About
 - add top padding?
 - skill list could be shorter?
-- make links live
 
 ### Projects
 - paragraph of text summarizing projects with links inline
