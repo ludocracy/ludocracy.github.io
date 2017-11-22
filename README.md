@@ -15,7 +15,7 @@ Perma-link: [peterkong.net](http://peterkong.net)
 
 ## remaining tasks
 ### general
-- change favicon!!!
+- make prettier favicon?
 
 ### by component
 #### navbar
