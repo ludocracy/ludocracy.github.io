@@ -1,6 +1,8 @@
 .App {
   display: flex;
   flex-direction: column;
+  background-color: #F6E8EA;
+  color: #22181C;
 }
 
 section {
@@ -12,14 +14,9 @@ section {
   pointer-events: none;
 }
 
-
-h1 {
-
-  }
-
 h2, h3 {
   font-size: 28px;
-  color: #8F3985;
+  color: #F75D5D;
 }
 
 p {
@@ -28,17 +25,16 @@ p {
   color: #25283D;
 }
 
-b {
-  color: #8F3985;
+b, a, em {
+  color: #F75D5D;
 }
 
 a {
-  color: #8F3985;
   text-decoration: none;
 }
 
 a:hover {
-  color: #A675A1;
+  color: #D63AF9;
 }
 
 nav a {
@@ -46,5 +42,5 @@ nav a {
 }
 
 nav a:hover {
-  color: #CEA2AC;
+  color: #F75D5D;
 }

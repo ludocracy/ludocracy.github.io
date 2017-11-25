@@ -1,10 +1,10 @@
 .NavBar {
   display: flex;
-  background-color: #25283D;
+  background-color: #22181C;
   flex-direction: row;
   padding-left: 2%;
   padding-right: 5%;
-  color: #EFD9CE;
+  color: #F6E8EA;
 }
 
 .NavBar img {
