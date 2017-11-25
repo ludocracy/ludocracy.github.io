@@ -7,6 +7,14 @@
   color: #F6E8EA;
 }
 
+nav a {
+    color: #EFD9CE;
+}
+
+nav a:hover {
+  color: #F75D5D;
+}
+
 .NavBar img {
   border-radius: 50%;
   width: 10%;
@@ -19,6 +27,24 @@ h1 {
   flex: 1;
   font-size: 24px;
   align-self: center;
+}
+
+@keyframes colorslide {
+  0% {
+    color: #F75D5D;
+  }
+  50% {
+    color: #D63AF9;
+  }
+  100% {
+    color: #F75D5D;
+  }
+}
+
+h1:hover {
+  animation: colorslide 2s;
+  animation-iteration-count: infinite;
+
 }
 
 nav {

@@ -1,3 +1,7 @@
+* {
+  transition-delay: 150ms;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -35,12 +39,4 @@ a {
 
 a:hover {
   color: #D63AF9;
-}
-
-nav a {
-    color: #EFD9CE;
-}
-
-nav a:hover {
-  color: #F75D5D;
 }
