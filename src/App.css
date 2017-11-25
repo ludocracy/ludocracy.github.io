@@ -11,3 +11,40 @@ section {
 .ReactStickyHeader_foreground, .ReactStickyHeader_background-bg {
   pointer-events: none;
 }
+
+
+h1 {
+
+  }
+
+h2, h3 {
+  font-size: 28px;
+  color: #8F3985;
+}
+
+p {
+  line-height: 2;
+  font-size: 24px;
+  color: #25283D;
+}
+
+b {
+  color: #8F3985;
+}
+
+a {
+  color: #8F3985;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #A675A1;
+}
+
+nav a {
+    color: #EFD9CE;
+}
+
+nav a:hover {
+  color: #CEA2AC;
+}

@@ -31,14 +31,9 @@ nav {
 }
 
 nav a {
-  color: #EFD9CE;
   font-size: 18px;
   text-decoration: none;
   align-self: center;
-}
-
-nav a:hover {
-  color: #CEA2AC;
 }
 
 @media only screen and (max-width: 680px) {
