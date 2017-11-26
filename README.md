@@ -29,6 +29,7 @@ Perma-link: [peterkong.net](http://peterkong.net)
 ### About
 - add top padding?
 - skill list could be shorter?
+- reduce font size on media query for mobile
 
 ### Projects
 - paragraph of text summarizing projects with links inline
