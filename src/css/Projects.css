@@ -3,4 +3,16 @@
   flex-direction: column;
   text-align: center;
   margin: 10%;
+  margin-top: 20%;
+}
+
+.Projects h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .Projects {
+    margin-top: 10%;
+  }
 }

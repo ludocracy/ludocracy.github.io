@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import {
-  Hero,
+  Home,
   About,
   Projects,
-  Social,
+  Contact,
   NavBar
 } from './components';
 import 'react-sticky-header/styles.css';
@@ -16,10 +16,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ScrollableAnchor id={'hero'}>
+        <ScrollableAnchor id={'home'}>
           <StickyHeader header={ <NavBar /> }>
             <section>
-              <Hero />
+              <Home />
             </section>
           </StickyHeader>
         </ScrollableAnchor>
@@ -35,9 +35,9 @@ class App extends Component {
           </section>
         </ScrollableAnchor>
 
-        <ScrollableAnchor id={'social'}>
+        <ScrollableAnchor id={'contact'}>
           <section>
-            <Social />
+            <Contact />
           </section>
         </ScrollableAnchor>
       </div>

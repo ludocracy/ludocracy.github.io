@@ -45,6 +45,6 @@ Perma-link: [peterkong.net](http://peterkong.net)
   - Dita For Small Teams
     - specify that i only contributed the proxy server
 
-### social links
-- paragraph of social descriptions with inline links
+### contact links
+- paragraph of contact descriptions with inline links
 - github, linkedin, medium, resume

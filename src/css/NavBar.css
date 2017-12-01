@@ -15,20 +15,6 @@ nav a:hover {
   color: #F75D5D;
 }
 
-.NavBar img {
-  border-radius: 50%;
-  width: 10%;
-  height: 10%;
-  align-self: center;
-}
-
-h1 {
-  padding-left: 3%;
-  flex: 1;
-  font-size: 24px;
-  align-self: center;
-}
-
 @keyframes colorslide {
   0% {
     color: #F75D5D;
@@ -41,7 +27,28 @@ h1 {
   }
 }
 
-h1:hover {
+.headshot {
+  border-radius: 50%;
+  width: 10%;
+  height: 10%;
+  align-self: center;
+}
+
+.name {
+  padding-left: 3%;
+  flex: 2;
+  align-self: center;
+}
+
+.name h1 {
+  font-size: 18px;
+}
+
+.home-nav {
+  display: none;
+}
+
+.name:hover {
   animation: colorslide 2s;
   animation-iteration-count: infinite;
 
@@ -57,29 +64,56 @@ nav {
 }
 
 nav a {
-  font-size: 18px;
+  font-size: 14px;
   text-decoration: none;
   align-self: center;
 }
 
-@media only screen and (max-width: 680px) {
-  h1 {
+@media only screen and (min-width: 640px) {
+  .home-nav {
+    display: inline;
+  }
+
+  .name h1 {
     font-size: 20px;
   }
   nav a {
-    font-size: 14px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .headshot {
+    width: 8%;
+    height: 8%;
+  }
+  .home-nav {
+    display: inline;
+  }
+  .name h1 {
+    font-size: 24px;
+  }
+  nav a {
+    font-size: 22px;
   }
   nav {
     padding-left: 5%;
   }
 }
 
-@media only screen and (min-width: 960px) {
-  h1 {
-    font-size: 32px;
+@media only screen and (min-width: 1024px) {
+  .headshot {
+    width: 5%;
+    height: 5%;
+  }
+  .home-nav {
+    display: inline;
+  }
+  .name h1 {
+    font-size: 28px;
   }
 
   nav a {
-    font-size: 24px;
+    font-size: 28px;
   }
 }

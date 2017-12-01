@@ -5,13 +5,13 @@ class NavBar extends Component {
   render() {
     return (
       <div className="NavBar">
-        <img src={require("../images/headshot.png")} alt="peter-kong"/>
-        <h1>Peter Kong</h1>
+        <img className="headshot" src={require("../images/headshot.png")} alt="peter-kong"/>
+        <a className="name" href='#home'><h1>Peter Kong</h1></a>
         <nav>
-          <a href='#hero'>Home</a>
+          <a className="home-nav" href='#home'>Home</a>
           <a href='#about'>About</a>
           <a href='#projects'>Projects</a>
-          <a href='#social'>Contact</a>
+          <a href='#contact'>Contact</a>
         </nav>
       </div>
     );

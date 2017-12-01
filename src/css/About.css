@@ -1,7 +1,7 @@
 .About {
   height: inherit;
   width: 100%;
-  margin-top: 5%;
+  margin-top: 15%;
   margin-right: 5%;
   margin-bottom: 5%;
   margin-left: 5%;
@@ -20,6 +20,7 @@
 
 .skills {
   flex: 1;
+  padding-top: 20%;
 }
 
 .skills p {
@@ -34,5 +35,8 @@
   }
   .words {
     padding-right: 0%;
+  }
+  .skills {
+    padding-top: 5%;
   }
 }

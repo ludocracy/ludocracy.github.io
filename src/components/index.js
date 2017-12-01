@@ -1,7 +1,7 @@
-import Hero from './Hero';
-import Social from './Social';
+import Home from './Home';
+import Contact from './Contact';
 import Projects from './Projects';
 import About from './About';
 import NavBar from './NavBar';
 
-export { NavBar, Hero, Social, Projects, About };
+export { NavBar, Home, Contact, Projects, About };
