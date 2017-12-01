@@ -1,7 +1,10 @@
 .About {
   height: inherit;
-  width: 80%;
-  margin: 10% 5% 0% 10%;
+  width: 100%;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
 
   display: flex;
   flex-direction: row;
@@ -9,8 +12,10 @@
 }
 
 .words {
-  flex: 2;
+  flex: 3;
   line-height: 2;
+  padding-left: 2%;
+  padding-right: 10%;
 }
 
 .skills {
@@ -19,4 +24,15 @@
 
 .skills p {
   font-size: 14px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .About {
+    width: 80%;
+    margin: 10% 5% 0% 10%;
+  }
+  .words {
+    padding-right: 0%;
+  }
 }

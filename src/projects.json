@@ -16,8 +16,8 @@
     },
     {
       "title": "DRY-Draw",
-      "url": "",
-      "screenshot": "",
+      "url": "https://dry-draw.firebaseapp.com/",
+      "screenshot": "https://ludocracy.github.io/random-static-files/screenshots/DRYDrawScreenshot.png",
       "description": "A web app for taking a single SVG (or any XML file) and embedding variables such that it can represent multiple permutations. E.g. a technical drawing for an iPhone can have home button that exists if version != X. Uses parameter currying so unknown variable values do not cause errors.",
       "stack": ["React", "Firebase", "Rails", "ReDuxml"]
     }

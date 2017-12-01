@@ -2,6 +2,10 @@
   transition-delay: 150ms;
 }
 
+body {
+  background-color: #F6E8EA;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -11,7 +15,6 @@
 
 section {
   margin-top: 95px;
-  flex: 1;
 }
 
 .ReactStickyHeader_foreground, .ReactStickyHeader_background-bg {
