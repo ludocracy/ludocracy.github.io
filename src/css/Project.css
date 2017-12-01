@@ -9,6 +9,14 @@
   border-radius: 8%;
 }
 
+.Kollaboscope {
+  width: 80%;
+}
+
+.Dry-Draw {
+  width: 80%;
+}
+
 .project-descr-img {
   display: flex;
   flex-direction: column-reverse;
@@ -23,12 +31,33 @@
   margin-top: 0;
 }
 
+@media only screen and (min-width: 768px) {
+
+  .project-descr-img img {
+    margin-top: 10%;
+  }
+  .Kollaboscope {
+    width: 400px;
+  }
+
+  .Dry-Draw {
+    width: 400px;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .project-descr-img {
     flex-direction: row;
   }
   .project-descr-img img {
     margin-top: 10%;
+  }
+  .Kollaboscope {
+    width: 400px;
+  }
+
+  .Dry-Draw {
+    width: 400px;
   }
 }
 
