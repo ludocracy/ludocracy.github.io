@@ -17,7 +17,7 @@ class About extends Component {
           <p>MongoDB</p>
           <p>PostgreSQL</p>
           <p>Firebase</p>
-          <p>Homeku</p>
+          <p>Heroku</p>
           <p>Git</p>
           <p>Docker</p>
           <p>Unix</p>
