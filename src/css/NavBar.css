@@ -48,7 +48,7 @@ nav a:hover {
   display: none;
 }
 
-.name:hover {
+.name h1:hover {
   animation: colorslide 2s;
   animation-iteration-count: infinite;
 
