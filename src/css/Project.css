@@ -9,7 +9,7 @@
   border-radius: 8%;
 }
 
-.Kollaboscope {
+img.Kollaboscope {
   width: 300px;
 }
 
@@ -36,11 +36,11 @@ img.DRY-Draw {
   .project-descr-img img {
     margin-top: 0%;
   }
-  .Kollaboscope {
+  img.Kollaboscope {
     width: 400px;
   }
 
-  .DRY-Draw {
+  img.DRY-Draw {
     width: 400px;
   }
 }
@@ -52,11 +52,11 @@ img.DRY-Draw {
   .project-descr-img img {
     margin-top: 10%;
   }
-  .Kollaboscope {
+  img.Kollaboscope {
     width: 400px;
   }
 
-  .DRY-Draw {
+  img.DRY-Draw {
     width: 400px;
   }
 }
