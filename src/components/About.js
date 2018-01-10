@@ -26,7 +26,7 @@ class About extends Component {
         <div className="words">
           <h2>About me</h2>
           <p>I am an Austin native and graduate of <a rel="noopener noreferrer" target="_blank" href="https://generalassemb.ly">General Assembly</a>.</p>
-          <p>I worked for 8 years in the semiconductor industry, programming <a rel="noopener noreferrer" target="_blank" href="http://fanucamerica.com/products/robots/">robots</a> with <a rel="noopener noreferrer" target="_blank" href="http://www.sulzer.com/da/Products-and-Services/Turbomachinery-Services/Repair-Services/Coatings/Atmospheric-Plasma-Spraying-APS">plasma guns</a>,
+          <p>I worked for 8 years in the semiconductor industry, programming <a rel="noopener noreferrer" target="_blank" href="http://fanucamerica.com/products/robots/">robots</a> with <a rel="noopener noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Thermal_spraying">plasma guns</a>,
           and writing <a rel="noopener noreferrer" target="_blank" href="https://rubygems.org/gems/ruby-dita/versions/0.4.0">software</a> to generate documentation from chip designs.
           I then made a transition to web development to present my ideas to the world, a few of which are <a href="#projects">presented here</a>.
           </p>
